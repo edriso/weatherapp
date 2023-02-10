@@ -1,0 +1,128 @@
+/* Base */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #dde2e9;
+    color: #44403f;
+}
+
+/* App */
+#app {
+    min-height: 100vh;
+    max-width: 43.75em;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: .25rem;
+    padding: 0.5rem 1.5rem;
+    transition: border-color 350ms ease;
+}
+
+@media (max-width: 48em) {
+    .header a {
+        font-size: 1.8rem;
+    }
+}
+
+.header a:hover {
+    border-color: #fff;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.form input,
+.form button {
+    background-color: transparent;
+    min-width: 5rem;
+    padding: .75rem 1rem;
+    border: 1px solid #44403f;
+    border-radius: .25rem;
+    font-family: inherit;
+    outline: none;
+    transition: background-color 350ms ease;
+}
+
+.form input {
+    text-transform: capitalize;
+}
+
+.form button {
+    cursor: pointer;
+}
+
+.form input:focus,
+.form input:hover,
+.form button:focus,
+.form button:hover {
+    background-color: #fff;
+}
+
+/* .status {} */
+.status__city {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+.status__degree {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.status__flex-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status__desc {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.status__desc p {
+    font-size: 1.3rem;
+}
+
+.status__more-info {
+    display: flex;
+    gap: 1rem 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.error__city {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: center;
+}

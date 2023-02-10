@@ -1,0 +1,32 @@
+<%- include('components/header'); -%>
+
+<main class="status">
+    <p class="status__flex-sb">
+        <span class="status__city"><%= city %></span>
+        <span class="fi fi-<%=cityStatus.sys.country.toLowerCase()%>"></span>
+    </p>
+
+    <h2 class="status__degree">
+        <%= cityStatus.main.temp.toFixed(1) %>&#176; C
+    </h2>
+
+    <div class="status__desc status__flex-sb">
+        <p>
+            <%= cityStatus.weather[0].description %>
+        </p>
+
+        <img src="http://openweathermap.org/img/wn/<%=cityStatus.weather[0].icon%>@2x.png" alt="weather icon">
+    </div>
+
+    <div class="status__more-info">
+        <p>Humidity:
+            <%= cityStatus.main.humidity %> %
+        </p>
+        <p>Wind Speed:
+            <%= cityStatus.wind.speed %> m/s</p>
+        <p>Cloudiness:
+            <%= cityStatus.clouds.all %> %</p>
+    </div>
+</main>
+
+<%- include('components/footer'); -%>
