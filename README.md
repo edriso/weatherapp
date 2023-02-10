@@ -2,9 +2,7 @@
 
 ### Project setup
 
-```
-npm install
-```
+Add APIKEY variable to .env file, which you get from openweathermap.org. Then run `npm install`
 
 ### Run project
 
