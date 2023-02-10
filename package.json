@@ -1,7 +1,7 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "An app that tell you the weather of a city.",
+  "description": "An app that tells you the weather of a city.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
