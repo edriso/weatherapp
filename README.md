@@ -10,8 +10,8 @@ Add APIKEY variable to .env file, which you get from openweathermap.org. Then ru
 npm start
 ```
 
-<br />
+### Snapshot
 
-[Live preview](https://weather-app-edriso.glitch.me/)
+![weather-app](./snapshot.png)
 
 <!-- Built on 7 Sep 2022 -->
