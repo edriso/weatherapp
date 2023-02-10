@@ -1,4 +1,4 @@
-# Weatherapp project using express.js & ejs
+# Weather app project using express.js & ejs
 
 ### Project setup
 
@@ -12,6 +12,8 @@ npm install
 npm start
 ```
 
-<!-- <br /> -->
+<br />
 
-<!-- [Live preview](https://city-weatherapp.herokuapp.com) -->
+[Live preview](https://weather-app-edriso.glitch.me/)
+
+<!-- Built on 7 Sep 2022 -->
