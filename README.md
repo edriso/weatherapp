@@ -1,8 +1,11 @@
-# Weather app project using express.js & ejs
+# Weather App
+
+A simple weather app project using Express.js, and Ejs
 
 ### Project setup
 
-Add APIKEY variable to .env file, which you get from openweathermap.org. Then run `npm install`
+- Create .env file, then add APIKEY variable equal to key value; _which you can get from [openweathermap](https://openweathermap.org/)_
+- Run `npm install`
 
 ### Run project
 
