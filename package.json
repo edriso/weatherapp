@@ -1,13 +1,13 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "An app that tells you the weather of a city.",
+  "description": "An app that shows you the weather of a city.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Disso",
+  "author": "edriso",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
