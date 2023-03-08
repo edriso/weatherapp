@@ -16,7 +16,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: #bac6db;
-    color: #44403f;
+    color: #000;
 }
 
 /* App */
@@ -64,7 +64,7 @@ body {
     background-color: transparent;
     min-width: 5rem;
     padding: .75rem 1rem;
-    border: 1px solid #44403f;
+    border: 1px solid #000;
     border-radius: .25rem;
     font-family: inherit;
     outline: none;
